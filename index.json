@@ -1,0 +1,11 @@
+{
+  "org": "pytorch",
+  "repo": "text",
+  "versions": [
+    {
+      "commit": "a5e610638ea47b4412a29cdb708ac5f2fabb1286",
+      "tag": "",
+      "parsed_at": "2026-11-06T07:11:30.641952+00:00"
+    }
+  ]
+}
