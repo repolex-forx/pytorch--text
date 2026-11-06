@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/pytorch/text/commit/a5e610638ea47b4412a29cdb708ac5f2fabb1286",
       "git:hexsha": "a5e610638ea47b4412a29cdb708ac5f2fabb1286",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-06T07:11:30.641201+00:00"
     },
     {
       "@id": "https://repolex.ai/r/pytorch/text/commit/499e327ea53bdf67c648f5747ed26764283b968a",
