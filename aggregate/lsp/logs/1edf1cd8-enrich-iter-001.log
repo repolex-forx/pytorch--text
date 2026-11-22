@@ -1,0 +1,40 @@
+[2026-11-22T07:23:46Z] === ENRICH ITERATION 1 START | repo=pytorch/text sha=1edf1cd8 ===
+[2026-11-22T07:23:46Z] [iter=1] PHASE START: enrich repo=pytorch/text sha=1edf1cd8 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/1edf1cd8-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/1edf1cd82ba1bed4325722ed93c8d4cf10a9f158.nq.gz
+[2026-11-22T07:23:58Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T07:24:07Z] [iter=1] AST store loaded triples=1044793 load_secs=9 mem_mb=889 MB
+[2026-11-22T07:24:07Z] [iter=1] Step 2: Finding LSP targets mem_mb=889 MB
+[2026-11-22T07:24:09Z] [iter=1] LSP targets found call_sites=7627 imports=912 extends=132 implements=0 secs=2
+[2026-11-22T07:24:10Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=889 MB
+[2026-11-22T07:24:15Z] [iter=1] Position index built positions=70492 nodes_with_types=92973 secs=5 mem_mb=889 MB
+[2026-11-22T07:24:15Z] [iter=1] Step 3: Starting LSP resolution mem_mb=889 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T07:24:15Z] [iter=1] Resolving target type target_type=call_site count=7627
+[2026-11-22T07:24:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=0 resolved=0 errors=0 current=benchmark/mha_block.py
+[2026-11-22T07:24:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.0 files_done=5 resolved=235 errors=0 current=test/torchtext_unittest/datasets/test_conll2000chunking.py
+[2026-11-22T07:25:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=13 resolved=539 errors=0 current=test/torchtext_unittest/datasets/test_udpos.py
+[2026-11-22T07:27:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.3 files_done=22 resolved=1071 errors=0 current=torchtext/datasets/stsb.py
+[2026-11-22T07:27:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.9 files_done=28 resolved=1357 errors=0 current=test/torchtext_unittest/datasets/test_iwslt2017.py
+[2026-11-22T07:28:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.4 files_done=37 resolved=1744 errors=0 current=torchtext/datasets/qnli.py
+[2026-11-22T07:28:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.2 files_done=42 resolved=2121 errors=0 current=test/torchtext_unittest/test_utils.py
+[2026-11-22T07:29:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.0 files_done=47 resolved=2560 errors=0 current=benchmark/benchmark_bert_tokenizer.py
+[2026-11-22T07:31:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.5 files_done=48 resolved=2569 errors=0 current=test/torchtext_unittest/models/models_cpu_test.py
+[2026-11-22T07:31:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=57 resolved=2941 errors=0 current=examples/libtorchtext/tokenizer/create_tokenizer.py
+[2026-11-22T07:32:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.6 files_done=65 resolved=3185 errors=0 current=test/torchtext_unittest/datasets/test_yelpreviews.py
+[2026-11-22T07:33:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.2 files_done=76 resolved=3518 errors=0 current=torchtext/datasets/wikitext2.py
+[2026-11-22T07:33:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.9 files_done=83 resolved=3851 errors=0 current=test/torchtext_unittest/datasets/test_yahooanswers.py
+[2026-11-22T07:34:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.4 files_done=96 resolved=4154 errors=0 current=test/torchtext_unittest/prototype/test_vectors.py
+[2026-11-22T07:34:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.9 files_done=106 resolved=4412 errors=0 current=benchmark/benchmark_basic_english_normalize.py
+[2026-11-22T07:35:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.4 files_done=118 resolved=4638 errors=0 current=examples/text_classification/predict.py
+[2026-11-22T07:35:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.9 files_done=133 resolved=4851 errors=0 current=torchtext/datasets/qqp.py
+[2026-11-22T07:36:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.0 files_done=149 resolved=5100 errors=0 current=torchtext/csrc/gpt2_bpe_tokenizer.cpp
+[2026-11-22T07:37:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.6 files_done=150 resolved=5212 errors=0 current=torchtext/csrc/vectors.cpp
+[2026-11-22T07:38:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.8 files_done=152 resolved=5444 errors=0 current=torchtext/csrc/bert_tokenizer.cpp
+[2026-11-22T07:39:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.4 files_done=156 resolved=5564 errors=0 current=torchtext/csrc/regex.cpp
+[2026-11-22T07:39:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.9 files_done=171 resolved=5649 errors=0 current=packaging/build_conda.sh
+[2026-11-22T07:39:45Z] [iter=1] Target type resolved target_type=call_site resolved=5658 errors=0 secs=930 mem_mb=889 MB
+[2026-11-22T07:39:45Z] [iter=1] Resolving target type target_type=import_statement count=912
+[2026-11-22T07:39:53Z] [iter=1] Target type resolved target_type=import_statement resolved=824 errors=0 secs=8 mem_mb=889 MB
+[2026-11-22T07:39:53Z] [iter=1] Resolving target type target_type=extends_clause count=132
+[2026-11-22T07:39:57Z] [iter=1] Target type resolved target_type=extends_clause resolved=53 errors=0 secs=5 mem_mb=889 MB
+[2026-11-22T07:50:04Z] [iter=1] Step 5: Writing final enrichment file triples=86171
+[2026-11-22T07:50:05Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/1edf1cd82ba1bed4325722ed93c8d4cf10a9f158.nq.gz size_kb=2000
+[2026-11-22T07:50:05Z] [iter=1] PHASE END: enrich elapsed_s=1579 elapsed_min=26.3 total_triples=86171

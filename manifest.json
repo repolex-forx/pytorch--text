@@ -735,6 +735,217 @@
       ],
       "ast": [
         "aggregate/ast/1edf1cd82ba1bed4325722ed93c8d4cf10a9f158/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/1edf1cd82ba1bed4325722ed93c8d4cf10a9f158.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "tqdm",
+          "ecosystem": "PYPI",
+          "version": "4.70.1",
+          "githubOrg": "tqdm",
+          "githubRepo": "tqdm",
+          "githubCommit": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+          "githubTag": "v4.70.1",
+          "githubUrl": "https://github.com/tqdm/tqdm",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.34.2",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+          "githubTag": "v2.34.2",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "nltk",
+          "ecosystem": "PYPI",
+          "version": "3.10.4",
+          "githubOrg": "nltk",
+          "githubRepo": "nltk",
+          "githubCommit": "5c41fc04a45e95577a83f3914acda211a994be00",
+          "githubTag": "v3.10.4",
+          "githubUrl": "https://github.com/nltk/nltk",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "spacy",
+          "ecosystem": "PYPI",
+          "version": "4.0.0.dev3",
+          "githubOrg": "explosion",
+          "githubRepo": "spaCy",
+          "githubCommit": "f4c8fdfaad15490be1f1e1a6c3f068a8f4b57105",
+          "githubTag": "v4.0.0.dev3",
+          "githubUrl": "https://github.com/explosion/spaCy",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "sacremoses",
+          "ecosystem": "PYPI",
+          "version": "0.2.0",
+          "githubOrg": "hplt-project",
+          "githubRepo": "sacremoses",
+          "githubUrl": "https://github.com/hplt-project/sacremoses",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "sphinx",
+          "ecosystem": "PYPI",
+          "version": "9.2.0",
+          "githubOrg": "sphinx-doc",
+          "githubRepo": "sphinx",
+          "githubCommit": "7b2c103eaa4cabf0ac47224c444cf0cbc7c745e5",
+          "githubTag": "v9.2.0",
+          "githubUrl": "https://github.com/sphinx-doc/sphinx",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "9.2.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+          "githubTag": "9.2.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "expecttest",
+          "ecosystem": "PYPI",
+          "version": "0.3.0",
+          "githubOrg": "ezyang",
+          "githubRepo": "expecttest",
+          "githubCommit": "4c4f88bda509c73cf26628b86902887cfdd6fedd",
+          "githubTag": "v0.3.0",
+          "githubUrl": "https://github.com/ezyang/expecttest",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "parameterized",
+          "ecosystem": "PYPI",
+          "version": "0.9.0",
+          "githubOrg": "wolever",
+          "githubRepo": "parameterized",
+          "githubCommit": "8719c41604c41a0ee372511ea87d2ecbb3215f8d",
+          "githubTag": "v0.9.0",
+          "githubUrl": "https://github.com/wolever/parameterized",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "torchdata",
+          "ecosystem": "PYPI",
+          "version": "0.5",
+          "githubOrg": "pytorch",
+          "githubRepo": "data",
+          "githubUrl": "https://github.com/pytorch/data",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pytest-pythonpath",
+          "ecosystem": "PYPI",
+          "version": "0.7.4",
+          "githubOrg": "bigsassy",
+          "githubRepo": "pytest-pythonpath",
+          "githubUrl": "https://github.com/bigsassy/pytest-pythonpath",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pytest-cov",
+          "ecosystem": "PYPI",
+          "version": "7.1.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-cov",
+          "githubCommit": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+          "githubTag": "v7.1.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-cov",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "codecov",
+          "ecosystem": "PYPI",
+          "version": "2.1.13",
+          "githubOrg": "codecov",
+          "githubRepo": "codecov-python",
+          "githubCommit": "a78512e4b00e67cfb3fccb530c9ca97a6c42eae5",
+          "githubTag": "v2.1.13",
+          "githubUrl": "https://github.com/codecov/codecov-python",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "defusedxml",
+          "ecosystem": "PYPI",
+          "version": "0.7.1",
+          "githubOrg": "tiran",
+          "githubRepo": "defusedxml",
+          "githubCommit": "ebff1b493751e2f0775314bdd4188d64f07ea184",
+          "githubTag": "v0.7.1",
+          "githubUrl": "https://github.com/tiran/defusedxml",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "torch",
+          "ecosystem": "PYPI",
+          "version": "2.15.0",
+          "githubOrg": "pytorch",
+          "githubRepo": "pytorch",
+          "githubCommit": "31a77fc9c0a7c6fff15a1ff58c743f53b1a9d457",
+          "githubTag": "v2.15.0",
+          "githubUrl": "https://github.com/pytorch/pytorch",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/torch/_C/__init__.pyi"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        },
+        {
+          "packageName": "filelock",
+          "ecosystem": "PYPI",
+          "version": "4.3.0",
+          "githubOrg": "tox-dev",
+          "githubRepo": "filelock",
+          "githubCommit": "54e61ea35b50a067274d6a04300dad86b341cc5a",
+          "githubTag": "4.3.0",
+          "githubUrl": "https://github.com/tox-dev/filelock",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/filelock/__init__.py"
+        },
+        {
+          "packageName": "tokenizers",
+          "ecosystem": "PYPI",
+          "version": "0.23.3",
+          "githubOrg": "huggingface",
+          "githubRepo": "tokenizers",
+          "githubCommit": "301277072263fb3830eb66eec7e47adadf76f1dc",
+          "githubTag": "v0.23.3",
+          "githubUrl": "https://github.com/huggingface/tokenizers",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/tokenizers/__init__.pyi"
+        },
+        {
+          "packageName": "transformers",
+          "ecosystem": "PYPI",
+          "version": "5.24.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "transformers",
+          "githubCommit": "eeee11099135592f1d03c2871fbd3d8132e5a4d7",
+          "githubTag": "v5.24.0",
+          "githubUrl": "https://github.com/huggingface/transformers",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/transformers/__init__.py"
+        }
       ]
     }
   ],
