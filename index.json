@@ -3,6 +3,11 @@
   "repo": "text",
   "versions": [
     {
+      "commit": "1edf1cd82ba1bed4325722ed93c8d4cf10a9f158",
+      "tag": "v1.8-rc1",
+      "parsed_at": "2026-11-22T07:52:21.529818+00:00"
+    },
+    {
       "commit": "a5e610638ea47b4412a29cdb708ac5f2fabb1286",
       "tag": "",
       "parsed_at": "2026-11-06T07:11:30.641952+00:00"
